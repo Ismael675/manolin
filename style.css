@@ -1,3 +1,29 @@
+
+body {
+    background-image: url(fondo.jpg);  
+    background-size: cover;  
+    background-position: center center;  
+    background-attachment: fixed;  
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .cabecera {
 
 display: flex;
@@ -17,7 +43,7 @@ flex-direction: column;
 align-items: center;
 gap: 1.5rem;
 padding: 2rem;
-background-color: #e79907;
+background-color: #e7990700;
 
 }
 
@@ -40,7 +66,7 @@ background-color: #e79907;
 }
 
 .tarjeta{
-    background-color: aqua;
+    background-color: rgb(192, 224, 9);
     border-radius: 12px;
     box-shadow: 0 4px 10px rgba(214, 2, 151, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -78,3 +104,207 @@ footer {
 
 
 
+
+
+
+
+MENÚ
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Estilo del contenedor del menú */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+/* Estilo de cada tarjeta */
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+/* Estilo de las imágenes en las tarjetas */
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* Estilo del título dentro de cada tarjeta */
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilo de la descripción dentro de cada tarjeta */
+.card p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+/* Estilo del precio en cada tarjeta */
+.card .price {
+    font-size: 1.2rem;
+    color: #e67e22;
+    font-weight: bold;
+}
+
+/* Efecto hover en las tarjetas */
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+CONTACTO
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+/* Estilo del encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Estilos del formulario de contacto */
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+input:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    background-color: #fff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* Estilo del botón de enviar */
+.submit-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+/* Estilo del pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1rem;
+}
+}

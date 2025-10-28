@@ -1,106 +1,114 @@
 
 body {
-    background-image: url(fondo.jpg);  
-    background-size: cover;  
-    background-position: center center;  
-    background-attachment: fixed;  
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  background-image: url(fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
 
 .cabecera {
-
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 1rem 2rem;
-background-color: #27ec00;
-color: white;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #27ec00;
+  color: white;
 }
 
+.cabecera a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.cabecera a:hover {
+  text-decoration: underline;
+}
 
 .presentacion {
-text-align: center;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 1.5rem;
-padding: 2rem;
-background-color: #e7990700;
-
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: transparent;
 }
 
-.tarjeta {
-    text-align: center;
-    padding: 40px 20px;
+.presentacion h2 {
+  background-color: rgba(255, 255, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 8px;
 }
 
-.tarjetas h2 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: rgb(9, 102, 224);
+.presentacion p {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+  max-width: 600px;
 }
 
 .contenedor-tarjetas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
 }
 
-.tarjeta{
-    background-color: rgb(192, 224, 9);
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(214, 2, 151, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
-    overflow: hidden;
-    width: 280px;
+.tarjeta {
+  background-color: rgb(192, 224, 9);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(214, 2, 151, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  padding: 20px;
 }
 
 .tarjeta:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(223, 5, 5);
 }
 
 .tarjeta img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .tarjeta h3 {
-    margin: 15px 0 10px;
-    font-size: 1.3em;
-    color: #333;
+  margin: 15px 0 10px;
+  font-size: 1.3em;
+  color: #333;
+}
+
+.tarjetas h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: rgb(212, 235, 82);
 }
 
 footer {
-    background-color: #400dcc;
-    color: white;
-    text-align: center;
-    padding: 1rem 0;
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    margin-top: 20px;
+  background-color: #400dcc;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
 }
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
 
 
 
@@ -123,15 +131,15 @@ MENÚ
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    color: #333;
+    color: #a32a2a;
     text-align: center;
 }
 
 /* Estilo del encabezado */
 header {
-    background-color: #333;
+    background-color: #333333;
     color: #fff;
-    padding: 20px;
+    padding: 40px;
 }
 
 h1 {
@@ -150,9 +158,9 @@ h1 {
 
 /* Estilo de cada tarjeta */
 .card {
-    background-color: #fff;
+    background-color: #aaca35;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgb(190, 35, 35);
     width: 200px;
     padding: 15px;
     text-align: center;
@@ -176,14 +184,14 @@ h1 {
 /* Estilo de la descripción dentro de cada tarjeta */
 .card p {
     font-size: 1rem;
-    color: #666;
+    color: #000000;
     margin-bottom: 15px;
 }
 
 /* Estilo del precio en cada tarjeta */
 .card .price {
     font-size: 1.2rem;
-    color: #e67e22;
+    color: #fa7602;
     font-weight: bold;
 }
 
@@ -306,5 +314,4 @@ footer {
 
 footer p {
     font-size: 1rem;
-}
 }

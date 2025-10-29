@@ -1,0 +1,317 @@
+
+body {
+  background-image: url(fondo.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #27ec00;
+  color: white;
+}
+
+.cabecera a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.cabecera a:hover {
+  text-decoration: underline;
+}
+
+.presentacion {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 2rem;
+  background-color: transparent;
+}
+
+.presentacion h2 {
+  background-color: rgba(255, 255, 0, 0.6);
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+.presentacion p {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 10px 20px;
+  border-radius: 8px;
+  max-width: 600px;
+}
+
+.contenedor-tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.tarjeta {
+  background-color: rgb(192, 224, 9);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(214, 2, 151, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  width: 280px;
+  text-align: center;
+  padding: 20px;
+}
+
+.tarjeta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgb(223, 5, 5);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.tarjeta h3 {
+  margin: 15px 0 10px;
+  font-size: 1.3em;
+  color: #333;
+}
+
+.tarjetas h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: rgb(212, 235, 82);
+}
+
+footer {
+  background-color: #400dcc;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  margin-top: 20px;
+}
+
+footer a {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+MENÚ
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #a32a2a;
+    text-align: center;
+}
+
+
+header {
+    background-color: #333333;
+    color: #fff;
+    padding: 40px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+
+.card {
+    background-color: #aaca35;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(190, 35, 35);
+    width: 200px;
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+
+.card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.card h3 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+
+.card p {
+    font-size: 1rem;
+    color: #000000;
+    margin-bottom: 15px;
+}
+
+
+.card .price {
+    font-size: 1.2rem;
+    color: #fa7602;
+    font-weight: bold;
+}
+
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+
+
+CONTACTO
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+
+.contact-form {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
+
+input:focus, textarea:focus {
+    border-color: #3498db;
+    outline: none;
+    background-color: #fff;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+.submit-btn {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 15px 25px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: #2980b9;
+}
+
+br
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    font-size: 1rem;
+}

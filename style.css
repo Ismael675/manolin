@@ -127,7 +127,7 @@ MENÚ
     box-sizing: border-box;
 }
 
-/* Estilo general del cuerpo */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -135,7 +135,7 @@ body {
     text-align: center;
 }
 
-/* Estilo del encabezado */
+
 header {
     background-color: #333333;
     color: #fff;
@@ -147,7 +147,7 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Estilo del contenedor del menú */
+
 .menu {
     display: flex;
     justify-content: center;
@@ -156,7 +156,7 @@ h1 {
     padding: 20px;
 }
 
-/* Estilo de cada tarjeta */
+
 .card {
     background-color: #aaca35;
     border-radius: 10px;
@@ -167,35 +167,35 @@ h1 {
     transition: transform 0.3s;
 }
 
-/* Estilo de las imágenes en las tarjetas */
+
 .card img {
     width: 100%;
     border-radius: 8px;
     margin-bottom: 10px;
 }
 
-/* Estilo del título dentro de cada tarjeta */
+
 .card h3 {
     font-size: 1.5rem;
     color: #333;
     margin-bottom: 10px;
 }
 
-/* Estilo de la descripción dentro de cada tarjeta */
+
 .card p {
     font-size: 1rem;
     color: #000000;
     margin-bottom: 15px;
 }
 
-/* Estilo del precio en cada tarjeta */
+
 .card .price {
     font-size: 1.2rem;
     color: #fa7602;
     font-weight: bold;
 }
 
-/* Efecto hover en las tarjetas */
+
 .card:hover {
     transform: translateY(-5px);
 }
@@ -213,7 +213,7 @@ CONTACTO
     box-sizing: border-box;
 }
 
-/* Estilos generales */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -222,7 +222,7 @@ body {
     line-height: 1.6;
 }
 
-/* Estilo del encabezado */
+
 header {
     background-color: #333;
     color: #fff;
@@ -239,7 +239,7 @@ header p {
     margin-top: 10px;
 }
 
-/* Estilos del formulario de contacto */
+
 .contact-form {
     background-color: #fff;
     padding: 40px;
@@ -286,7 +286,7 @@ textarea {
     resize: vertical;
 }
 
-/* Estilo del botón de enviar */
+
 .submit-btn {
     background-color: #3498db;
     color: white;
@@ -302,11 +302,11 @@ textarea {
     background-color: #2980b9;
 }
 
-/* Estilo del pie de página */
+br
 footer {
     background-color: #333;
     color: #fff;
-    padding: 10px;
+    padding: 0px;
     position: absolute;
     width: 100%;
     bottom: 0;
